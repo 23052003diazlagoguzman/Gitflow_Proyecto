@@ -167,9 +167,9 @@ footer{
     margin-top: 30px;
 }
 
-/* contacto */
+/* formulario */
 
-.contacto-form {
+.formulario-form {
     max-width: 1000px;
     margin: -50px auto 50px; /* Sube un poco para solapar el hero */
     padding: 0 20px;
