@@ -32,7 +32,52 @@
 /* --- Página: index.html --- */
 
 
-/* --- Página: xxxxxx.html --- */
+/* --- Página: servicios.html --- */
 
+
+.servicios main {
+    flex: 1;
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.servicios section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.servicios section h2,
+.servicios section h3 {
+    color: #0d3b66;
+    margin-bottom: 10px;
+}
+
+.servicios section:hover {
+    transform: translateY(-3px);
+    transition: 0.2s;
+}
+
+.servicios footer {
+    background-color: #0d3b66;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    .servicios main {
+        padding: 15px;
+    }
+
+    .servicios nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
 
 /* --- Página:  xxxxxx.html --- */
