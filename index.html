@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="version" content="1.0.0">
-  <title>Mi Proyecto Web</title>
+  <title>Horizonte Viajes</title>
+  <!-- Tipografías de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,700;1,9..144,400&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
   <!-- Hoja de estilos compartida por todas las páginas del proyecto -->
   <link rel="stylesheet" href="estilos.css">
 </head>
@@ -17,7 +21,7 @@
        ============================================================ -->
   <header>
     <div class="header-contenido">
-      <h1 class="logo">Mi Proyecto</h1>
+      <h1 class="logo">Horizonte<span>.</span> <em>Viajes</em></h1>
       <nav>
         <ul>
           <li><a href="index.html">Inicio</a></li>
@@ -38,20 +42,51 @@
 
     <!-- Sección de bienvenida -->
     <section class="bienvenida">
-      <h2>Bienvenidos a nuestro proyecto</h2>
-      <p>
-        Esta es la página de inicio. El equipo puede personalizar este contenido
-        según el tema elegido para el proyecto.
-      </p>
-      <p>
-        <!-- MODIFICAR: Escribid aquí una breve descripción de vuestro proyecto -->
-        Descripción breve del proyecto...
+      <div class="eyebrow">— Bienvenido —</div>
+      <h2>El mundo te <em>espera</em></h2>
+      <p class="subtitulo">
+        Dos destinos seleccionados. Dos formas de perderse.
+        Elige por dónde empezar tu próxima historia.
       </p>
     </section>
 
     <!-- Sección de tarjetas / destacados -->
     <section class="tarjetas">
-      
+
+      <!-- Tarjeta 1: Tokio -->
+      <article class="destino">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.YzsGBfr_up7e6jfvPJNQsAHaE6?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Tokio, Japón">
+        <div class="destino-info">
+          <div class="destino-texto">
+            <span class="numero">— 01</span>
+            <h3>Tokio</h3>
+            <div class="ubicacion">Japón · Asia</div>
+          </div>
+          <div class="flecha">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+      <!-- Tarjeta 2: Hawái -->
+      <article class="destino">
+        <img src="https://th.bing.com/th/id/OIP.bGddlQQOZR3_ThwoNHIxfgHaEK?w=304&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Hawái, Estados Unidos">
+        <div class="destino-info">
+          <div class="destino-texto">
+            <span class="numero">— 02</span>
+            <h3>Hawái</h3>
+            <div class="ubicacion">Pacífico · EE.UU.</div>
+          </div>
+          <div class="flecha">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+      </article>
+
     </section>
 
   </main>
@@ -62,7 +97,7 @@
        ============================================================ -->
   <footer>
     <div class="footer-contenido">
-      <p>&copy; 2026 Mi Proyecto &mdash; Desarrollado por</p>
+      <p>&copy; 2026 Horizonte Viajes &mdash; Desarrollado por</p>
       <!-- AÑADIR: nombres del equipo, enlaces a redes sociales, etc. -->
     </div>
   </footer>
