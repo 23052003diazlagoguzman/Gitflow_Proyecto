@@ -29,10 +29,12 @@
 ## 🧩 Funcionalidades implementadas (features)
 (Lista todas las features desarrolladas en el proyecto)
 
-- feature/ 
-- feature/
-- feature/
-- feature/
+- feature/index.html
+- feature/about.html
+- feature/estilos.css
+- feature/formulario.html
+- feature/readme.md
+- feature/servicios.html
 
 ---
 
@@ -41,33 +43,65 @@
 
 - Nombre: Guzman diaz lago
   - Features en las que ha trabajado:
+
+  index
+
+  readme
+
+  estilos
+
+  formulario
   - Archivos modificados:
+
+  
 
 - Nombre: Juan Diego Quispe Suri
   - Features en las que ha trabajado:
+
+
+
+  index
+
+  estilos
   - Archivos modificados:
 
----Diogo naya de oliveira
+- Nombre: Aaron lopez teijido
+  - Features en las que ha trabajado:
 
-Aaron Lopez teijido
+  estilos
+
+  about
+  - Archivos modificados:
+
+- Nombre: Diogo naya de oliveira
+  - Features en las que ha trabajado:
+
+  estilos
+
+  index
+
+  servicios
+  - Archivos modificados:
 
 
 ## 🚀 Versión del proyecto
 (Indicar la versión final del proyecto)
 
-Versión: **v2.0.0**
+Versión: **v1.0.0**
 
 ---
 
 ## 🔗 Enlaces
 (Añadir los enlaces necesarios)
 
-- Repositorio GitHub: 
-- Tablero Trello: 
+- Repositorio GitHub:  https://github.com/23052003diazlagoguzman/Gitflow_Proyecto
+- Tablero Trello:  https://trello.com/b/Ja1iqI6H/practica
 
 ---
 
 ## 📝 Problemas encontrados
 (Explicar brevemente dificultades o problemas que hayáis tenido y cómo los habéis solucionado)
+
+mal trabajo en equipo mala organizacion y horarios poco pagado tambien
 
 ---
